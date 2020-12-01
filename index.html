@@ -13,7 +13,10 @@
 </head>
 
 <body>
-
+    <!-- scroll top -->
+    <a href="#" class="scrolltop " id="scroll-top">
+        <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
     <!-- header -->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
@@ -21,7 +24,7 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                     <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
@@ -35,6 +38,49 @@
             </div>
         </nav>
     </header>
+
+    <main class="l -main">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, my name is</span>
+                    <h1 class="home__name">Hida</h1>
+                    <span class="home__profession">Web Developer </span>
+                    <a download="" href="" class="button button-light">Download CV</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="#" class="home__social-icon"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="home__social-icon"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/img/home.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+
+        <section class="about section bd-container" id="about">
+            <span class="section-subtitle">My history</span>
+            <h2 class="section-title">About me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data bd-grid">
+                    <p class="about__description"><span>Hello, I am <br></span>
+                        Freelance frontend developer. Seeking a beginner role to enhance and explore my technical
+                        knowledge gained at PTIT University
+                        in the last three years.
+                    </p>
+                </div>
+
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+            </div>
+        </section>
+    </main>
 
     <!-- main-js -->
     <script src="assets/js/main.js"></script>
